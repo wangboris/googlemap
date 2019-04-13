@@ -1,1 +1,66 @@
-sx
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>mineral.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffef7672</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffceffc5</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffef7672</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffceffc5</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>mineral</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-111.4588628329956,37.01714780693609,0 -111.4596618081785,37.01313290428985,0 -111.4576433505442,37.01149243328743,0 -111.4546388183241,37.01098815200351,0 -111.4517830727489,37.01155653065185,0 -111.4506414947369,37.01258355384649,0 -111.4488835455969,37.01423801629144,0 -111.4497809902295,37.01649423917443,0 -111.4502982694868,37.01823554807497,0 -111.4512696044193,37.0198951098881,0 -111.4545870510728,37.01965277367268,0 -111.4566693973322,37.01918649039318,0 -111.4588628329956,37.01714780693609,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
